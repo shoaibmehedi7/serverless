@@ -1,0 +1,6 @@
+node_modules
+comp*api
+output
+temp/
+.serverless/
+package-lock.json

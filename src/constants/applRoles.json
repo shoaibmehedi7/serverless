@@ -1,0 +1,11 @@
+﻿[
+{"roleCode": "PM","roleName": "Project Manager","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","applRoleId": "d976b340-2e91-4152-805b-91cda2fae6b1"},
+{"roleCode": "APPLENG","roleName": "Application Engineer","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","applRoleId": "d976b340-2e91-4152-805b-91cda2fae6b1"},
+{"roleCode": "ARCHITECT","roleName": "Architect","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","applRoleId": "d976b340-2e91-4152-805b-91cda2fae6b1"},
+{"roleCode": "QAE","roleName": "Quality Engineer","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","applRoleId": "d976b340-2e91-4152-805b-91cda2fae6b1"},
+{"roleCode": "DEVOPSENG","roleName": "DevOps Engineer","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","applRoleId": "d976b340-2e91-4152-805b-91cda2fae6b1"},
+{"roleCode": "SCRMMSTR","roleName": "Scrum Master","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","applRoleId": "d976b340-2e91-4152-805b-91cda2fae6b1"},
+{"roleCode": "ANALYST","roleName": "Sytems Analyst","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","applRoleId": "d976b340-2e91-4152-805b-91cda2fae6b1"},
+{"roleCode": "PRODSUPPORT","roleName": "Production Support Engineer","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","applRoleId": "d976b340-2e91-4152-805b-91cda2fae6b1"}
+
+]

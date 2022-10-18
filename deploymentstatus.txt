@@ -1,0 +1,176 @@
+
+> comp-companymgmt-api@1.0.0 deploy /Users/harshmahey/temp/comp-companymgmt-api
+> serverless deploy --stage=test --aws-profile=smsjourney
+
+Serverless: DOTENV: Loading environment variables from .env, .env.test:
+Serverless: 	 - deletion_policy
+Serverless: 	 - DOMAIN_NAME
+Serverless: 	 - DOMAIN_NAME_PATH
+Serverless: 	 - LOG_LEVEL
+Serverless: 	 - ENVIRONMENT
+Serverless: 	 - ACCOUNT_ID
+Serverless: 	 - COG_SCOPE_API_USR1
+Serverless: 	 - COG_SCOPE_API_USR2
+Serverless: 	 - AWS_SECRET_KEY_ID
+Serverless: 	 - AWS_SECRET_KEY_VAL
+Serverless: 	 - pool_id
+Serverless: 	 - API_KEY
+Serverless: 	 - DBT_COMPANY_MGMT
+Serverless: 	 - DBT_COMPANY_DEPT_MGMT
+Serverless: 	 - DBT_COMPANY_DEPT_APPL_MGMT
+Serverless: 	 - DBT_COMPANY_APPL_TEAM_MBR_MGMT
+ 
+ Serverless Warning --------------------------------------
+ 
+  CLI options definitions were upgraded with "type" property (which could be one of "string", "boolean", "multiple"). Below listed plugins do not predefine type for introduced options:
+   - ServerlessOffline for "apiKey", "corsAllowHeaders", "corsAllowOrigin", "corsDisallowCredentials", "corsExposedHeaders", "disableCookieValidation", "enforceSecureCookies", "hideStackTraces", "host", "httpPort", "httpsProtocol", "lambdaPort", "noPrependStageInUrl", "noAuth", "ignoreJWTSignature", "noTimeout", "prefix", "printOutput", "resourceRoutes", "useChildProcesses", "useWorkerThreads", "websocketPort", "webSocketHardTimeout", "webSocketIdleTimeout", "useDocker", "layersDir", "dockerReadOnly", "functionCleanupIdleTimeSeconds", "allowCache", "dockerHost", "dockerHostServicePath", "dockerNetwork"
+  
+  Please report this issue in plugin issue tracker.
+ 
+Serverless: Configuration warning:
+Serverless:   at 'functions.addCompanyMgmt.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.updateCompanyMgmt.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.getCompanyMgmts.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.deleteCompanyMgmt.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.addCompanyDeptMgmt.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.updateCompanyDeptMgmt.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.getCompanyDeptMgmts.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.deleteCompanyDeptMgmt.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.addDeptApplMgmt.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.updateDeptApplMgmt.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.getDeptApplMgmts.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.deleteDeptApplMgmt.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.addApplTeamMemberMgmt.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.updateApplTeamMemberMgmt.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.getApplTeamMemberMgmts.events[0].http': unrecognized property 'headers'
+Serverless:   at 'functions.deleteApplTeamMemberMgmt.events[0].http': unrecognized property 'headers'
+Serverless:  
+Serverless: Learn more about configuration validation here: http://slss.io/configuration-validation
+Serverless:  
+Serverless: Bundling with Webpack...
+asset src/companymgmt/ApplTeamMemberMgmtMgmt.js 1.48 MiB [emitted] (name: src/companymgmt/ApplTeamMemberMgmtMgmt) 1 related asset
+asset src/companymgmt/DeptApplMgmtMgmt.js 1.48 MiB [emitted] (name: src/companymgmt/DeptApplMgmtMgmt) 1 related asset
+asset src/companymgmt/CompanyDeptMgmtMgmt.js 1.48 MiB [emitted] (name: src/companymgmt/CompanyDeptMgmtMgmt) 1 related asset
+asset src/companymgmt/CompanyMgmtMgmt.js 1.48 MiB [emitted] (name: src/companymgmt/CompanyMgmtMgmt) 1 related asset
+runtime modules 4.14 KiB 20 modules
+orphan modules 7.35 KiB [orphan] 10 modules
+modules by path ./node_modules/ 1.39 MiB 189 modules
+modules by path ./src/ 36.7 KiB
+  modules by path ./src/commons/ 18.8 KiB
+    modules by path ./src/commons/utils/*.js 13.7 KiB 5 modules
+    + 3 modules
+  modules by path ./src/companymgmt/*.js 17.9 KiB
+    ./src/companymgmt/CompanyMgmtMgmt.js 4.26 KiB [built] [code generated]
+    + 3 modules
++ 9 modules
+webpack compiled successfully in 1427 ms
+Serverless: Copying existing artifacts...
+Serverless: Packaging service...
+Serverless: Ensuring that deployment bucket exists
+Serverless: Uploading CloudFormation file to S3...
+Serverless: Uploading artifacts...
+Serverless: Uploading service comp-companymgmt-api.zip file to S3 (2.94 MB)...
+Serverless: Validating template...
+Serverless: Updating Stack...
+Serverless: Checking Stack update progress...
+........................................
+Serverless: Stack update finished...
+Service Information
+service: comp-companymgmt-api
+stage: test
+region: us-east-1
+stack: comp-companymgmt-api-test
+resources: 110
+api keys:
+  companymgmtApiKey: W3SfyO0rGDBCKbOwN0IL77DjvNFakZR2x4YNHR7h
+endpoints:
+  POST - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/companyMgmt
+  PUT - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/companyMgmt
+  GET - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/companyMgmt/{snrId}
+  DELETE - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/companyMgmt-delete/{snrId}/{companyId}
+  POST - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/companyDeptMgmt
+  PUT - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/companyDeptMgmt
+  GET - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/companyDeptMgmt/{companyId}
+  DELETE - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/companyDeptMgmt-delete/{companyId}/{companyDeptId}
+  POST - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/deptApplMgmt
+  PUT - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/deptApplMgmt
+  GET - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/deptApplMgmt/{companyDeptId}
+  DELETE - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/deptApplMgmt-delete/{companyDeptId}/{applicationId}
+  POST - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/applTeamMemberMgmt
+  PUT - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/applTeamMemberMgmt
+  GET - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/applTeamMemberMgmt/{applicationId}
+  DELETE - https://dz8u6nvs1h.execute-api.us-east-1.amazonaws.com/test/applTeamMemberMgmt-delete/{applicationId}/{teamMemberId}
+functions:
+  addCompanyMgmt: comp-companymgmt-api-test-addCompanyMgmt
+  updateCompanyMgmt: comp-companymgmt-api-test-updateCompanyMgmt
+  getCompanyMgmts: comp-companymgmt-api-test-getCompanyMgmts
+  deleteCompanyMgmt: comp-companymgmt-api-test-deleteCompanyMgmt
+  addCompanyDeptMgmt: comp-companymgmt-api-test-addCompanyDeptMgmt
+  updateCompanyDeptMgmt: comp-companymgmt-api-test-updateCompanyDeptMgmt
+  getCompanyDeptMgmts: comp-companymgmt-api-test-getCompanyDeptMgmts
+  deleteCompanyDeptMgmt: comp-companymgmt-api-test-deleteCompanyDeptMgmt
+  addDeptApplMgmt: comp-companymgmt-api-test-addDeptApplMgmt
+  updateDeptApplMgmt: comp-companymgmt-api-test-updateDeptApplMgmt
+  getDeptApplMgmts: comp-companymgmt-api-test-getDeptApplMgmts
+  deleteDeptApplMgmt: comp-companymgmt-api-test-deleteDeptApplMgmt
+  addApplTeamMemberMgmt: comp-companymgmt-api-test-addApplTeamMemberMgmt
+  updateApplTeamMemberMgmt: comp-companymgmt-api-test-updateApplTeamMemberMgmt
+  getApplTeamMemberMgmts: comp-companymgmt-api-test-getApplTeamMemberMgmts
+  deleteApplTeamMemberMgmt: comp-companymgmt-api-test-deleteApplTeamMemberMgmt
+layers:
+  None
+Serverless Domain Manager: Info: Found apiId: dz8u6nvs1h for api.smsj.link
+Serverless Domain Manager: Info: Updated API mapping from 'companymgmt'
+                    to 'companymgmt' for api.smsj.link
+Serverless Domain Manager: Summary: Distribution Domain Name
+Serverless Domain Manager:    Domain Name: api.smsj.link
+Serverless Domain Manager:    Target Domain: d-a5cv5bypo0.execute-api.us-east-1.amazonaws.com
+Serverless Domain Manager:    Hosted Zone Id: Z1UJRXOUMOOFQ8
+Serverless: dynamoStream:connect - connecting functions to DynamoDB streams
+Serverless: Removing old service artifacts from S3...
+Serverless: Deprecation warning: Variables resolver reports following resolution errors:
+              - Cannot resolve variable at "provider.iamRoleStatements.1.Resource.0": Value not found at "self" source,
+              - Cannot resolve variable at "provider.iamRoleStatements.1.Resource.1": Value not found at "self" source,
+              - Cannot resolve variable at "provider.iamRoleStatements.1.Resource.2": Value not found at "self" source,
+              - Cannot resolve variable at "provider.iamRoleStatements.1.Resource.3": Value not found at "self" source,
+              - Cannot resolve variable at "provider.iamRoleStatements.2.Resource.0": Value not found at "self" source,
+              - Cannot resolve variable at "provider.iamRoleStatements.2.Resource.1": Value not found at "self" source,
+              - Cannot resolve variable at "provider.iamRoleStatements.2.Resource.2": Value not found at "self" source,
+              - Cannot resolve variable at "provider.iamRoleStatements.2.Resource.3": Value not found at "self" source,
+              - Cannot resolve variable at "functions.addCompanyMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.addCompanyMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.updateCompanyMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.updateCompanyMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.getCompanyMgmts.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.getCompanyMgmts.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.deleteCompanyMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.deleteCompanyMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.addCompanyDeptMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.addCompanyDeptMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.updateCompanyDeptMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.updateCompanyDeptMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.getCompanyDeptMgmts.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.getCompanyDeptMgmts.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.deleteCompanyDeptMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.deleteCompanyDeptMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.addDeptApplMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.addDeptApplMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.updateDeptApplMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.updateDeptApplMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.getDeptApplMgmts.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.getDeptApplMgmts.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.deleteDeptApplMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.deleteDeptApplMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.addApplTeamMemberMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.addApplTeamMemberMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.updateApplTeamMemberMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.updateApplTeamMemberMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.getApplTeamMemberMgmts.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.getApplTeamMemberMgmts.events.0.http.authorizer.scopes.0": Value not found at "self" source,
+              - Cannot resolve variable at "functions.deleteApplTeamMemberMgmt.events.0.http.authorizer.arn": Value not found at "self" source,
+              - Cannot resolve variable at "functions.deleteApplTeamMemberMgmt.events.0.http.authorizer.scopes.0": Value not found at "self" source
+            From a next major this will be communicated with a thrown error.
+            Set "variablesResolutionMode: 20210326" in your service config, to adapt to new behavior now
+            More Info: https://www.serverless.com/framework/docs/deprecations/#NEW_VARIABLES_RESOLVER
+
+Monitor Express APIs by route with the Serverless Dashboard: run "serverless"

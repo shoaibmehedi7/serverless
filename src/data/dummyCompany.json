@@ -1,0 +1,60 @@
+{
+  "companyInfo": {
+    "snrId": "SNR_APPS",
+    "creationDate": "",
+    "address": [
+      {
+        "address1": "",
+        "address2": "",
+        "cityCode": "",
+        "cityName": "",
+        "countryCode": "US",
+        "countryName": "United States",
+        "stateCode": "",
+        "stateName": "",
+        "zipCode": ""
+      }
+    ],
+    "companyCode": "",
+    "companyId": "",
+    "companyName": "Explore application LLC",
+    "COMPANY_STATUS": "REGISTERED",
+    "enableFeatures": [
+      {
+        "isFinalClient": true
+      }
+    ],
+    "expiryDate": "1973-02-14T00:00:00:000",
+    "firstName": "Harsh",
+    "isAllowAttachTimeSheet": true,
+    "lastName": "Mahey",
+    "lastUpdatedDate": "2022-09-26T20:28:57:767",
+    "projectEndTrigger": "",
+    "timeSheetInfo": [
+      {
+        "contractTSApproval": "AUTO",
+        "defaultWorkingHours": "8",
+        "distributionInfo": {
+          "additionalTo": "",
+          "distributeTo": ""
+        },
+        "employeeTSApproval": "AUTO",
+        "isOvertime": true,
+        "reminderInfo": {
+          "isSendReminder": true,
+          "reminders": {
+            "postTimeSheetReminder": {
+              "timeToSend": "11:30"
+            },
+            "preTimeSheetReminder": {
+              "timeToSend": "07:30"
+            }
+          }
+        },
+        "timeSheetDetailsFormat": "1",
+        "timeSheetFrequency": "WEEKLY",
+        "totalWorkingHours": "40"
+      }
+    ]
+  }
+}

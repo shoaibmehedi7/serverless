@@ -1,0 +1,61 @@
+service: comp-companymgmt-api
+useDotenv: true
+frameworkVersion: ">=1.1.0 <3.0.0"
+
+plugins:
+  - serverless-webpack
+  - serverless-dotenv-plugin
+  - serverless-offline
+  - serverless-domain-manager
+  - serverless-dynamo-stream-plugin
+custom:
+  accountId: !Ref AWS::AccountId
+  pEnvironment: ${opt:stage, self:provider.stage}
+
+  webpack:
+    webpackConfig: "webpack.config.js" # Name of webpack configuration file
+    includeModules: false # Node modules configuration for packaging
+    packager: "yarn" # Packager that will be used to package your external modules
+  dynamodb:
+    stages:
+      - dev
+    # UNCOMMENT  FOR LOCAL
+    # start:
+    #   port: 8000
+    #   inMemory: true
+    #   heapInitial: 200m
+    #   heapMax: 1g
+    #   migrate: true
+    #   seed: true
+    #   convertEmptyValues: true
+    # UNCOMMENT ENDS FOR LOCAL
+  customDomain:
+    domainName: ${env:DOMAIN_NAME}
+    basePath: ${env:DOMAIN_NAME_PATH}
+    stage: ${self:provider.stage}
+    createRoute53Record: true    
+provider:
+  name: aws
+  stage: ${opt:stage, 'dev'}
+  runtime: nodejs14.x
+  profile: manualverify-api
+  apiGateway:
+    apiKeys:
+    - ${env:API_KEY}
+  versionFunctions: false
+  timeout: 10 # The default is 6 seconds. Note: API Gateway current maximum is 30 seconds
+  websocketsApiRouteSelectionExpression: $request.body.action
+  logs:
+    websocket: 
+      level: ERROR
+
+  environment:
+  #   DYNAMODB_TABLE: homework
+    
+
+  iamRoleStatements: ${file(./serverless-config/roles.yml)}
+
+functions: ${file(./serverless-config/functions.yml)}
+resources:
+  Resources: ${file(./serverless-config/dbresources.yml)}
+  #  ${file(./serverless-config/setup-cognito.yml)}

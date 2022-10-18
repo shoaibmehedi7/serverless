@@ -1,0 +1,9 @@
+[
+{"categoryCode": "MEETING","categoryName": "Meetings","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","categoryType":"BILLABLE"},
+{"categoryCode": "PTO","categoryName": "Personal Time Off","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","categoryType":"NON_BILLABLE"},
+{"categoryCode": "WORK","categoryName": "Work","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","categoryType":"BILLABLE"},
+{"categoryCode": "TRAINING","categoryName": "Training","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","categoryType":"BILLABLE"},
+{"categoryCode": "OVERTIME","categoryName": "Over Time","companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91","creationDate": "2022-09-10T23:16:56:447","categoryType":"OVERTIME"}
+
+}
+

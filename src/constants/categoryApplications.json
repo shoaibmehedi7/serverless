@@ -1,0 +1,52 @@
+[
+  {
+    "companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91",
+    "creationDate": "2022-08-24T05:59:53:275",
+    "applicationCategoryId": "1bb3c667-5a13-4d67-8b3d-084559b1e6ad",
+    "expiryDate": "1973-02-14T00:00:00:000",
+    "categoryCode": "MEETING",
+    "categoryName": "Meetings",
+    "categoryType": "BILLABLE",
+    "snrAppsId": "SNR_APPS"
+  },
+  {
+    "companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91",
+    "creationDate": "2022-08-24T05:59:53:275",
+    "applicationCategoryId": "1bb3c667-5a13-4d67-8b3d-084559b1e6ad",
+    "expiryDate": "1973-02-14T00:00:00:000",
+    "categoryCode": "PTO",
+    "categoryName": "Personal Time Off",
+    "categoryType": "NON_BILLABLE",
+    "snrAppsId": "SNR_APPS"
+  },
+  {
+    "companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91",
+    "creationDate": "2022-08-24T05:59:53:275",
+    "applicationCategoryId": "1bb3c667-5a13-4d67-8b3d-084559b1e6ad",
+    "expiryDate": "1973-02-14T00:00:00:000",
+    "categoryCode": "WORK",
+    "categoryName": "Work",
+    "categoryType": "BILLABLE",
+    "snrAppsId": "SNR_APPS"
+  },
+  {
+    "companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91",
+    "creationDate": "2022-08-24T05:59:53:275",
+    "applicationCategoryId": "1bb3c667-5a13-4d67-8b3d-084559b1e6ad",
+    "expiryDate": "1973-02-14T00:00:00:000",
+    "categoryCode": "TRAINING",
+    "categoryName": "Training",
+    "categoryType": "BILLABLE",
+    "snrAppsId": "SNR_APPS"
+  },
+  {
+    "companyId": "8e293f0f-00be-445e-b27b-f6a38a3b6d91",
+    "creationDate": "2022-08-24T05:59:53:275",
+    "applicationCategoryId": "1bb3c667-5a13-4d67-8b3d-084559b1e6ad",
+    "expiryDate": "1973-02-14T00:00:00:000",
+    "categoryCode": "OVERTIME",
+    "categoryName": "Overtime",
+    "categoryType": "OVERTIME",
+    "snrAppsId": "SNR_APPS"
+  }
+]

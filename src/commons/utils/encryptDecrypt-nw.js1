@@ -1,0 +1,71 @@
+import { log } from "./logger";
+import { KmsKeyringNode,  buildClient,CommitmentPolicy} from '@aws-crypto/client-node';
+import { AppConfig } from '../environment/appconfig';
+
+
+
+export const encryptData = async (dataToBeEncrypted) => {
+  log.debug(`encryptData  -> ${JSON.stringify(dataToBeEncrypted)}`);
+  
+  const generatorKeyId = AppConfig.KMS_ID_001; //'arn:aws:kms:us-east-1:767908273889:alias/justOtpUserReferemce'
+  //const generatorKeyId = 'arn:aws:kms:us-east-1:767908273889:alias/justOtpUserReferemce';
+  //const keyIds = ['arn:aws:kms:us-east-1:767908273889:key/4784254e-482c-45f4-859f-2626d8785e30']
+  const keyIds = [AppConfig.KMS_ID_002];
+
+  const { encrypt } = buildClient(
+    CommitmentPolicy.REQUIRE_ENCRYPT_REQUIRE_DECRYPT
+  )
+
+const keyring = new KmsKeyringNode({ generatorKeyId, keyIds })
+
+
+const context = {
+  stage: AppConfig.environment,
+  purpose: 'simple demonstration app',
+  origin: AppConfig.REGION
+};
+log.debug( `context was ${context}`);
+log.debug( `context was ${JSON.stringify(context)}`);
+
+log.debug( `generatorKeyId was ${generatorKeyId}`);
+log.debug( `keyIds was ${keyIds}`);
+
+const { result } = await encrypt(keyring, dataToBeEncrypted, { encryptionContext: context })
+log.debug( `content was ${dataToBeEncrypted} and result is ${result}`);
+log.debug( `Result is ${JSON.stringify(result)}`);
+return result;
+ 
+};
+
+export const decryptData = async (dataToBeDecrypted) => {
+  //log.debug(`dataToBeDecrypted 111111111111=> ${dataToBeDecrypted}`);
+  const generatorKeyId = AppConfig.KMS_ID_001; //'arn:aws:kms:us-east-1:767908273889:alias/justOtpUserReferemce'
+
+  const keyIds = [AppConfig.KMS_ID_002];
+  const keyring = new KmsKeyringNode({ generatorKeyId, keyIds })
+  const { decrypt } = buildClient(
+    CommitmentPolicy.REQUIRE_ENCRYPT_REQUIRE_DECRYPT
+  );
+
+const context = {
+  stage: AppConfig.environment,
+  purpose: 'simple demonstration app',
+  origin: AppConfig.REGION
+};
+try {
+  const { decryptedData,messageHeader  } = await decrypt(keyring, dataToBeDecrypted);
+  //log.debug( `content was 12345 ${JSON.stringify(messageHeader)}`);
+  log.debug( `decryptedData is 234567 ${decryptedData}`);
+  /* Grab the encryption context so you can verify it. */
+  const { encryptionContext } = messageHeader
+
+  Object.entries(context).forEach(([key, value]) => {
+    if (encryptionContext[key] !== value)
+      throw new Error('Encryption Context does not match expected values')
+  })
+  return decryptedData;
+} catch (error) {
+  console.log(" error........error");
+  console.log(error);
+}
+};

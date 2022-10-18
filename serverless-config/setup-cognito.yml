@@ -1,0 +1,22 @@
+jotpUserPoolCogPool:
+  Type: "AWS::Cognito::UserPool"
+  Properties:
+    UserPoolName: "testPool"
+jotpUserPoolClientCogPool:
+  Type: "AWS::Cognito::UserPoolClient"
+  Properties:
+    ClientName: "testClientPool"
+    UserPoolId: "us-east-1_h4KIGRh12"
+jotpUserPoolDomainCogPool:
+  Type: "AWS::Cognito::UserPoolDomain"
+  Properties: 
+    Domain: "authjustotpcom"
+    UserPoolId: "us-east-1_h4KIGRh12"
+# jotpUserPoolDomainCogPool:
+#   Type: "AWS::Cognito::UserPoolDomain"
+#   Properties: 
+#     CustomDomainConfig: 
+#       CertificateArn: "arn:aws:acm:us-east-1:767908273889:certificate/880d0685-1717-4c4e-bada-958715a8fec1"
+#     Domain: "auth.justotp.com"
+#     UserPoolId: "us-east-1_h4KIGRh12"
+

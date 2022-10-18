@@ -1,0 +1,3542 @@
+{
+    "RequestItems": {
+      "CMMN_AUTHENTICATION_X_SCRNS": [
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "1",
+              "creationDate": "1",
+              "authScrnMappingId": "1",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:000",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "assignments",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "2",
+              "creationDate": "2",
+              "authScrnMappingId": "2",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:001",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-assignments",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "3",
+              "creationDate": "3",
+              "authScrnMappingId": "3",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:002",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "4",
+              "creationDate": "4",
+              "authScrnMappingId": "4",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:003",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "5",
+              "creationDate": "5",
+              "authScrnMappingId": "5",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:004",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "view-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "6",
+              "creationDate": "6",
+              "authScrnMappingId": "6",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:005",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "edit-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "7",
+              "creationDate": "7",
+              "authScrnMappingId": "7",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:006",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "8",
+              "creationDate": "8",
+              "authScrnMappingId": "8",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:007",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-new-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "9",
+              "creationDate": "9",
+              "authScrnMappingId": "9",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:008",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "edit-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "10",
+              "creationDate": "10",
+              "authScrnMappingId": "10",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:009",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "view-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "11",
+              "creationDate": "11",
+              "authScrnMappingId": "11",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:010",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "admin",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "12",
+              "creationDate": "12",
+              "authScrnMappingId": "12",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:011",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "timesheet",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "13",
+              "creationDate": "13",
+              "authScrnMappingId": "13",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:012",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "timesheet-new",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "14",
+              "creationDate": "14",
+              "authScrnMappingId": "14",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:013",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "timesheet-edit",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "15",
+              "creationDate": "15",
+              "authScrnMappingId": "15",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:014",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "timesheet-details",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "16",
+              "creationDate": "16",
+              "authScrnMappingId": "16",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:015",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "17",
+              "creationDate": "17",
+              "authScrnMappingId": "17",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:016",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "18",
+              "creationDate": "18",
+              "authScrnMappingId": "18",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:017",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "edit-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "19",
+              "creationDate": "19",
+              "authScrnMappingId": "19",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:018",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "view-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "20",
+              "creationDate": "20",
+              "authScrnMappingId": "20",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:019",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "21",
+              "creationDate": "21",
+              "authScrnMappingId": "21",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:020",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "22",
+              "creationDate": "22",
+              "authScrnMappingId": "22",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:021",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "edit-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "23",
+              "creationDate": "23",
+              "authScrnMappingId": "23",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:022",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "view-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "24",
+              "creationDate": "24",
+              "authScrnMappingId": "24",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:023",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "company",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "25",
+              "creationDate": "25",
+              "authScrnMappingId": "25",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:024",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "26",
+              "creationDate": "26",
+              "authScrnMappingId": "26",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:025",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "27",
+              "creationDate": "27",
+              "authScrnMappingId": "27",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:026",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "edit-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "28",
+              "creationDate": "28",
+              "authScrnMappingId": "28",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:027",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "view-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "29",
+              "creationDate": "29",
+              "authScrnMappingId": "29",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:028",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "applications",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "30",
+              "creationDate": "30",
+              "authScrnMappingId": "30",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:029",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "31",
+              "creationDate": "31",
+              "authScrnMappingId": "31",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:030",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "edit-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "32",
+              "creationDate": "32",
+              "authScrnMappingId": "32",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:031",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "view-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "33",
+              "creationDate": "33",
+              "authScrnMappingId": "33",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:032",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "34",
+              "creationDate": "34",
+              "authScrnMappingId": "34",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:033",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "35",
+              "creationDate": "35",
+              "authScrnMappingId": "35",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:034",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "view-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "36",
+              "creationDate": "36",
+              "authScrnMappingId": "36",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:035",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "edit-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "37",
+              "creationDate": "37",
+              "authScrnMappingId": "37",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:036",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "38",
+              "creationDate": "38",
+              "authScrnMappingId": "38",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:037",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "39",
+              "creationDate": "39",
+              "authScrnMappingId": "39",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:038",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "view-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "40",
+              "creationDate": "40",
+              "authScrnMappingId": "40",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:039",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "edit-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "41",
+              "creationDate": "41",
+              "authScrnMappingId": "41",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:040",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "42",
+              "creationDate": "42",
+              "authScrnMappingId": "42",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:041",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "43",
+              "creationDate": "43",
+              "authScrnMappingId": "43",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:042",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "view-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "44",
+              "creationDate": "44",
+              "authScrnMappingId": "44",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:043",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "edit-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "45",
+              "creationDate": "45",
+              "authScrnMappingId": "45",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:044",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "46",
+              "creationDate": "46",
+              "authScrnMappingId": "46",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:045",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "47",
+              "creationDate": "47",
+              "authScrnMappingId": "47",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:046",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "view-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "48",
+              "creationDate": "48",
+              "authScrnMappingId": "48",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:047",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "edit-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "49",
+              "creationDate": "49",
+              "authScrnMappingId": "49",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:048",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "50",
+              "creationDate": "50",
+              "authScrnMappingId": "50",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:049",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "add-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "51",
+              "creationDate": "51",
+              "authScrnMappingId": "51",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:050",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "view-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "52",
+              "creationDate": "52",
+              "authScrnMappingId": "52",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:051",
+              "roleCode": "COMPANY_ADMIN",
+              "screenCode": "edit-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "1",
+              "creationDate": "1",
+              "authScrnMappingId": "1",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:000",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "assignments",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "2",
+              "creationDate": "2",
+              "authScrnMappingId": "2",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:001",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-assignments",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "3",
+              "creationDate": "3",
+              "authScrnMappingId": "3",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:002",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "4",
+              "creationDate": "4",
+              "authScrnMappingId": "4",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:003",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "5",
+              "creationDate": "5",
+              "authScrnMappingId": "5",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:004",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "view-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "6",
+              "creationDate": "6",
+              "authScrnMappingId": "6",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:005",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "edit-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "7",
+              "creationDate": "7",
+              "authScrnMappingId": "7",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:006",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "8",
+              "creationDate": "8",
+              "authScrnMappingId": "8",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:007",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-new-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "9",
+              "creationDate": "9",
+              "authScrnMappingId": "9",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:008",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "edit-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "10",
+              "creationDate": "10",
+              "authScrnMappingId": "10",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:009",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "view-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "11",
+              "creationDate": "11",
+              "authScrnMappingId": "11",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:010",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "admin",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "12",
+              "creationDate": "12",
+              "authScrnMappingId": "12",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:011",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "timesheet",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "13",
+              "creationDate": "13",
+              "authScrnMappingId": "13",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:012",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "timesheet-new",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "14",
+              "creationDate": "14",
+              "authScrnMappingId": "14",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:013",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "timesheet-edit",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "15",
+              "creationDate": "15",
+              "authScrnMappingId": "15",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:014",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "timesheet-details",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "16",
+              "creationDate": "16",
+              "authScrnMappingId": "16",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:015",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "17",
+              "creationDate": "17",
+              "authScrnMappingId": "17",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:016",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "18",
+              "creationDate": "18",
+              "authScrnMappingId": "18",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:017",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "edit-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "19",
+              "creationDate": "19",
+              "authScrnMappingId": "19",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:018",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "view-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "20",
+              "creationDate": "20",
+              "authScrnMappingId": "20",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:019",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "21",
+              "creationDate": "21",
+              "authScrnMappingId": "21",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:020",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "22",
+              "creationDate": "22",
+              "authScrnMappingId": "22",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:021",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "edit-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "23",
+              "creationDate": "23",
+              "authScrnMappingId": "23",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:022",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "view-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "24",
+              "creationDate": "24",
+              "authScrnMappingId": "24",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:023",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "company",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "25",
+              "creationDate": "25",
+              "authScrnMappingId": "25",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:024",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "26",
+              "creationDate": "26",
+              "authScrnMappingId": "26",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:025",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "27",
+              "creationDate": "27",
+              "authScrnMappingId": "27",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:026",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "edit-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "28",
+              "creationDate": "28",
+              "authScrnMappingId": "28",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:027",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "view-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "29",
+              "creationDate": "29",
+              "authScrnMappingId": "29",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:028",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "applications",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "30",
+              "creationDate": "30",
+              "authScrnMappingId": "30",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:029",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "31",
+              "creationDate": "31",
+              "authScrnMappingId": "31",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:030",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "edit-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "32",
+              "creationDate": "32",
+              "authScrnMappingId": "32",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:031",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "view-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "33",
+              "creationDate": "33",
+              "authScrnMappingId": "33",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:032",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "34",
+              "creationDate": "34",
+              "authScrnMappingId": "34",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:033",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "35",
+              "creationDate": "35",
+              "authScrnMappingId": "35",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:034",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "view-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "36",
+              "creationDate": "36",
+              "authScrnMappingId": "36",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:035",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "edit-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "37",
+              "creationDate": "37",
+              "authScrnMappingId": "37",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:036",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "38",
+              "creationDate": "38",
+              "authScrnMappingId": "38",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:037",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "39",
+              "creationDate": "39",
+              "authScrnMappingId": "39",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:038",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "view-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "40",
+              "creationDate": "40",
+              "authScrnMappingId": "40",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:039",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "edit-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "41",
+              "creationDate": "41",
+              "authScrnMappingId": "41",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:040",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "42",
+              "creationDate": "42",
+              "authScrnMappingId": "42",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:041",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "43",
+              "creationDate": "43",
+              "authScrnMappingId": "43",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:042",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "view-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "44",
+              "creationDate": "44",
+              "authScrnMappingId": "44",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:043",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "edit-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "45",
+              "creationDate": "45",
+              "authScrnMappingId": "45",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:044",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "46",
+              "creationDate": "46",
+              "authScrnMappingId": "46",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:045",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "47",
+              "creationDate": "47",
+              "authScrnMappingId": "47",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:046",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "view-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "48",
+              "creationDate": "48",
+              "authScrnMappingId": "48",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:047",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "edit-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "49",
+              "creationDate": "49",
+              "authScrnMappingId": "49",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:048",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "50",
+              "creationDate": "50",
+              "authScrnMappingId": "50",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:049",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "add-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "51",
+              "creationDate": "51",
+              "authScrnMappingId": "51",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:050",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "view-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "52",
+              "creationDate": "52",
+              "authScrnMappingId": "52",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:051",
+              "roleCode": "TEAM_MEMBER",
+              "screenCode": "edit-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "1",
+              "creationDate": "1",
+              "authScrnMappingId": "1",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:000",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "assignments",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "2",
+              "creationDate": "2",
+              "authScrnMappingId": "2",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:001",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-assignments",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "3",
+              "creationDate": "3",
+              "authScrnMappingId": "3",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:002",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "4",
+              "creationDate": "4",
+              "authScrnMappingId": "4",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:003",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "5",
+              "creationDate": "5",
+              "authScrnMappingId": "5",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:004",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "view-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "6",
+              "creationDate": "6",
+              "authScrnMappingId": "6",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:005",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "edit-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "7",
+              "creationDate": "7",
+              "authScrnMappingId": "7",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:006",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "8",
+              "creationDate": "8",
+              "authScrnMappingId": "8",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:007",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-new-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "9",
+              "creationDate": "9",
+              "authScrnMappingId": "9",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:008",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "edit-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "10",
+              "creationDate": "10",
+              "authScrnMappingId": "10",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:009",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "view-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "11",
+              "creationDate": "11",
+              "authScrnMappingId": "11",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:010",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "admin",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "12",
+              "creationDate": "12",
+              "authScrnMappingId": "12",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:011",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "timesheet",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "13",
+              "creationDate": "13",
+              "authScrnMappingId": "13",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:012",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "timesheet-new",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "14",
+              "creationDate": "14",
+              "authScrnMappingId": "14",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:013",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "timesheet-edit",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "15",
+              "creationDate": "15",
+              "authScrnMappingId": "15",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:014",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "timesheet-details",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "16",
+              "creationDate": "16",
+              "authScrnMappingId": "16",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:015",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "17",
+              "creationDate": "17",
+              "authScrnMappingId": "17",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:016",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "18",
+              "creationDate": "18",
+              "authScrnMappingId": "18",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:017",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "edit-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "19",
+              "creationDate": "19",
+              "authScrnMappingId": "19",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:018",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "view-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "20",
+              "creationDate": "20",
+              "authScrnMappingId": "20",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:019",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "21",
+              "creationDate": "21",
+              "authScrnMappingId": "21",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:020",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "22",
+              "creationDate": "22",
+              "authScrnMappingId": "22",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:021",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "edit-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "23",
+              "creationDate": "23",
+              "authScrnMappingId": "23",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:022",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "view-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "24",
+              "creationDate": "24",
+              "authScrnMappingId": "24",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:023",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "company",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "25",
+              "creationDate": "25",
+              "authScrnMappingId": "25",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:024",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "26",
+              "creationDate": "26",
+              "authScrnMappingId": "26",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:025",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "27",
+              "creationDate": "27",
+              "authScrnMappingId": "27",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:026",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "edit-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "28",
+              "creationDate": "28",
+              "authScrnMappingId": "28",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:027",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "view-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "29",
+              "creationDate": "29",
+              "authScrnMappingId": "29",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:028",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "applications",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "30",
+              "creationDate": "30",
+              "authScrnMappingId": "30",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:029",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "31",
+              "creationDate": "31",
+              "authScrnMappingId": "31",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:030",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "edit-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "32",
+              "creationDate": "32",
+              "authScrnMappingId": "32",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:031",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "view-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "33",
+              "creationDate": "33",
+              "authScrnMappingId": "33",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:032",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "34",
+              "creationDate": "34",
+              "authScrnMappingId": "34",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:033",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "35",
+              "creationDate": "35",
+              "authScrnMappingId": "35",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:034",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "view-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "36",
+              "creationDate": "36",
+              "authScrnMappingId": "36",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:035",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "edit-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "37",
+              "creationDate": "37",
+              "authScrnMappingId": "37",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:036",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "38",
+              "creationDate": "38",
+              "authScrnMappingId": "38",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:037",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "39",
+              "creationDate": "39",
+              "authScrnMappingId": "39",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:038",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "view-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "40",
+              "creationDate": "40",
+              "authScrnMappingId": "40",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:039",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "edit-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "41",
+              "creationDate": "41",
+              "authScrnMappingId": "41",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:040",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "42",
+              "creationDate": "42",
+              "authScrnMappingId": "42",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:041",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "43",
+              "creationDate": "43",
+              "authScrnMappingId": "43",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:042",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "view-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "44",
+              "creationDate": "44",
+              "authScrnMappingId": "44",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:043",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "edit-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "45",
+              "creationDate": "45",
+              "authScrnMappingId": "45",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:044",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "46",
+              "creationDate": "46",
+              "authScrnMappingId": "46",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:045",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "47",
+              "creationDate": "47",
+              "authScrnMappingId": "47",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:046",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "view-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "48",
+              "creationDate": "48",
+              "authScrnMappingId": "48",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:047",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "edit-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "49",
+              "creationDate": "49",
+              "authScrnMappingId": "49",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:048",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "50",
+              "creationDate": "50",
+              "authScrnMappingId": "50",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:049",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "add-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "51",
+              "creationDate": "51",
+              "authScrnMappingId": "51",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:050",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "view-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "52",
+              "creationDate": "52",
+              "authScrnMappingId": "52",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:051",
+              "roleCode": "REPORTING_MGR",
+              "screenCode": "edit-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "1",
+              "creationDate": "1",
+              "authScrnMappingId": "1",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:000",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "assignments",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "2",
+              "creationDate": "2",
+              "authScrnMappingId": "2",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:001",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-assignments",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "3",
+              "creationDate": "3",
+              "authScrnMappingId": "3",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:002",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "4",
+              "creationDate": "4",
+              "authScrnMappingId": "4",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:003",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "5",
+              "creationDate": "5",
+              "authScrnMappingId": "5",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:004",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "view-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "6",
+              "creationDate": "6",
+              "authScrnMappingId": "6",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:005",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "edit-project-management",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "7",
+              "creationDate": "7",
+              "authScrnMappingId": "7",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:006",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "8",
+              "creationDate": "8",
+              "authScrnMappingId": "8",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:007",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-new-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "9",
+              "creationDate": "9",
+              "authScrnMappingId": "9",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:008",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "edit-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "10",
+              "creationDate": "10",
+              "authScrnMappingId": "10",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:009",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "view-team-member",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "11",
+              "creationDate": "11",
+              "authScrnMappingId": "11",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:010",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "admin",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "12",
+              "creationDate": "12",
+              "authScrnMappingId": "12",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:011",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "timesheet",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "13",
+              "creationDate": "13",
+              "authScrnMappingId": "13",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:012",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "timesheet-new",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "14",
+              "creationDate": "14",
+              "authScrnMappingId": "14",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:013",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "timesheet-edit",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "15",
+              "creationDate": "15",
+              "authScrnMappingId": "15",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:014",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "timesheet-details",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "16",
+              "creationDate": "16",
+              "authScrnMappingId": "16",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:015",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "17",
+              "creationDate": "17",
+              "authScrnMappingId": "17",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:016",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "18",
+              "creationDate": "18",
+              "authScrnMappingId": "18",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:017",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "edit-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "19",
+              "creationDate": "19",
+              "authScrnMappingId": "19",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:018",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "view-client",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "20",
+              "creationDate": "20",
+              "authScrnMappingId": "20",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:019",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "21",
+              "creationDate": "21",
+              "authScrnMappingId": "21",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:020",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "22",
+              "creationDate": "22",
+              "authScrnMappingId": "22",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:021",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "edit-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "23",
+              "creationDate": "23",
+              "authScrnMappingId": "23",
+              "addAction": true,
+              "editAction": true,
+              "deleteAction": true,
+              "viewAction": true,
+              "expiryDate": "1973-02-14T00:00:00:022",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "view-vendor",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "24",
+              "creationDate": "24",
+              "authScrnMappingId": "24",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:023",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "company",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "25",
+              "creationDate": "25",
+              "authScrnMappingId": "25",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:024",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "26",
+              "creationDate": "26",
+              "authScrnMappingId": "26",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:025",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "27",
+              "creationDate": "27",
+              "authScrnMappingId": "27",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:026",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "edit-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "28",
+              "creationDate": "28",
+              "authScrnMappingId": "28",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:027",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "view-department",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "29",
+              "creationDate": "29",
+              "authScrnMappingId": "29",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:028",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "applications",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "30",
+              "creationDate": "30",
+              "authScrnMappingId": "30",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:029",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "31",
+              "creationDate": "31",
+              "authScrnMappingId": "31",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:030",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "edit-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "32",
+              "creationDate": "32",
+              "authScrnMappingId": "32",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:031",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "view-application",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "33",
+              "creationDate": "33",
+              "authScrnMappingId": "33",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:032",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "34",
+              "creationDate": "34",
+              "authScrnMappingId": "34",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:033",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "35",
+              "creationDate": "35",
+              "authScrnMappingId": "35",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:034",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "view-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "36",
+              "creationDate": "36",
+              "authScrnMappingId": "36",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:035",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "edit-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "37",
+              "creationDate": "37",
+              "authScrnMappingId": "37",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:036",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "38",
+              "creationDate": "38",
+              "authScrnMappingId": "38",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:037",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "39",
+              "creationDate": "39",
+              "authScrnMappingId": "39",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:038",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "view-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "40",
+              "creationDate": "40",
+              "authScrnMappingId": "40",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:039",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "edit-applications-screen",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "41",
+              "creationDate": "41",
+              "authScrnMappingId": "41",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:040",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "42",
+              "creationDate": "42",
+              "authScrnMappingId": "42",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:041",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "43",
+              "creationDate": "43",
+              "authScrnMappingId": "43",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:042",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "view-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "44",
+              "creationDate": "44",
+              "authScrnMappingId": "44",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:043",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "edit-authentication-roles",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "45",
+              "creationDate": "45",
+              "authScrnMappingId": "45",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:044",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "46",
+              "creationDate": "46",
+              "authScrnMappingId": "46",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:045",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "47",
+              "creationDate": "47",
+              "authScrnMappingId": "47",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:046",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "view-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "48",
+              "creationDate": "48",
+              "authScrnMappingId": "48",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:047",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "edit-screen-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "49",
+              "creationDate": "49",
+              "authScrnMappingId": "49",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:048",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "50",
+              "creationDate": "50",
+              "authScrnMappingId": "50",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:049",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "add-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "51",
+              "creationDate": "51",
+              "authScrnMappingId": "51",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:050",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "view-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "companyId": "52",
+              "creationDate": "52",
+              "authScrnMappingId": "52",
+              "addAction": false,
+              "editAction": false,
+              "deleteAction": false,
+              "viewAction": false,
+              "expiryDate": "1973-02-14T00:00:00:051",
+              "roleCode": "RESOURCE_MGR",
+              "screenCode": "edit-screen-field-role-mapping",
+              "snrAppsId": "SNR_APPS"
+            }
+          }
+        }
+      ]
+    }
+  }

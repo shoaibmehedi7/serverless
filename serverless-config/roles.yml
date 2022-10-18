@@ -1,0 +1,61 @@
+- Effect: "Allow"
+  Action:
+    - lambda:*
+    - mobiletargeting:*
+    - sms-voice:*
+    - sns:*
+    - s3:*
+    - kms:*
+    - cognito-idp:*
+
+  Resource: "*"
+
+- Effect: Allow
+  Action:
+    - dynamodb:Query
+    - dynamodb:Scan
+    - dynamodb:GetItem
+    - dynamodb:PutItem
+    - dynamodb:UpdateItem
+    - dynamodb:DeleteItem
+  Resource:
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_MGMT}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_DEPT_MGMT}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_DEPT_APPL_MGMT}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_APPL_TEAM_MBR}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_APPL_TEAM_MBR_ROLE}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_TEAM_MBR}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.CMMN_SCRNS}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.CMMN_AUTH_ROLES}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.CMMN_AUTHENTICATION_X_SCRNS}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_APPL_ROLE_MGMT}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_APPL_CATEGORY}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_TEAM_MBR_X_CLIENT_X_VENDOR}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.TMSHTZ_CLIENT}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.TMSHTZ_VENDOR}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.TMSHTZ_PROJECT_CODE}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.TMSHTZ_TEAM_MBR_TIMESHEET}"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.TMSHTZ_TEAM_MBR_TIMESHEET_DTLS}"
+
+- Effect: Allow
+  Action:
+    - dynamodb:Query
+    - dynamodb:Scan
+  Resource:
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_MGMT}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_DEPT_MGMT}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_DEPT_APPL_MGMT}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_APPL_TEAM_MBR}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_APPL_TEAM_MBR_ROLE}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_TEAM_MBR}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.CMMN_SCRNS}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.CMMN_AUTH_ROLES}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.CMMN_AUTHENTICATION_X_SCRNS}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_APPL_ROLE_MGMT}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_COMPANY_APPL_CATEGORY}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DBT_TEAM_MBR_X_CLIENT_X_VENDOR}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.TMSHTZ_CLIENT}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.TMSHTZ_VENDOR}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.TMSHTZ_PROJECT_CODE}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.TMSHTZ_TEAM_MBR_TIMESHEET}/index/*"
+    - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.TMSHTZ_TEAM_MBR_TIMESHEET_DTLS}/index/*"
