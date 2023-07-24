@@ -21,11 +21,10 @@ todoUpdate:
   events:
     - http:
         path: todo
-        method: PATCH        
+        method: PATCH
 todoDeleteMultiple:
   handler: src/todomgmt/todomgmt.todoDeleteMultiple
   events:
     - http:
-        path: todo
+        path: todo-Batch
         method: DELETE
-
