@@ -26,6 +26,26 @@ todoDeleteMultiple:
   handler: src/todomgmt/todomgmt.todoDeleteMultiple
   events:
     - http:
-        path: todo
+        path: batch-delete
         method: DELETE
 
+todoPartialSearch:
+  handler: src/todomgmt/todomgmt.todoPartialSearch
+  events:
+    - http:
+        path: partial-search
+        method: DELETE
+
+todoBatchUpdate:
+  handler: src/todomgmt/todomgmt.todoBatchUpdate
+  events:
+    - http:
+        path: batch-update
+        method: PATCH        
+
+todoDeleteByName:        
+  handler: src/todomgmt/todomgmt.todoDeleteByName
+  events:
+    - http:
+        path: delete-By-Name
+        method: DELETE
