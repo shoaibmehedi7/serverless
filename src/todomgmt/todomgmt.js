@@ -61,9 +61,6 @@ export const todoAdd = async (record) => {
   // if(recordObj.id=3)
   // {recordObj.pop();}
 
- 
-
-
   let recordObj = JSON.parse(record["body"]);
   console.log(recordObj)
   
@@ -81,18 +78,72 @@ export const todoAdd = async (record) => {
   
   return apiResponse(todos);
   };
+
+// Update Multiple Objects 
+
+export const todoBatchUpdate = async (record) => {
  
+let recordObj = JSON.parse(record["body"]);
+console.log(recordObj)
+for(let item of recordObj){
+  for(let i = 0;i<todos.length ;  i++){
+    if(todos[i].id == item.id){
+      todos.splice(i, 1,item);  
+    }
+  }
+}
+return apiResponse(todos);
+};
+
+
+
+
+ 
+
+
+
   export const todoDeleteMultiple = async (record) => {
 
     let recordObj = JSON.parse(record["body"]);
     console.log(recordObj,"record print")
    // let holder= recordObj.id;
-  
+   for(let item of recordObj){
     for(let i = todos.length - 1; i >= 0; i--){
-        if(todos[i].id == recordObj.id){
-          todos.splice(i, 2);
-        }
+      if(todos[i].id == item.id){
+        todos.splice(i, 1);
+      }
     }
+  }
+  return apiResponse(todos);
+};
+
+
+
+
+
+export const todoPartialSearch = async (record) => {
+  const recordObj = JSON.parse(record["body"]);
+
+  
+  const filteredTodos = [];
+
+  for (const todo of todos) {
+    let matchFound = false;
+
+    for (const key in todo) {
+     
+      if (typeof todo[key] === "string" && todo[key].includes(recordObj)) {
+        matchFound = true;
+        break;
+      }
+    }
+
+    if (matchFound) {
     
-    return apiResponse(todos);
-    };
+      filteredTodos.push(todo);
+    }
+  }
+
+
+  return apiResponse(filteredTodos);
+};

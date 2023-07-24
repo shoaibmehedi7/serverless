@@ -4,27 +4,45 @@ todoAdd:
     - http:
         path: todo
         method: POST
+
 todoGet:
   handler: src/todomgmt/todomgmt.todoGet
   events:
     - http:
         path: todo
         method: GET
+
 todoDelete:
   handler: src/todomgmt/todomgmt.todoDelete
   events:
     - http:
         path: todo
         method: DELETE
+
 todoUpdate:
   handler: src/todomgmt/todomgmt.todoUpdate
   events:
     - http:
         path: todo
         method: PATCH
+
 todoDeleteMultiple:
   handler: src/todomgmt/todomgmt.todoDeleteMultiple
   events:
     - http:
         path: todo-Batch
+        method: DELETE
+
+todoBatchUpdate:
+  handler: src/todomgmt/todomgmt.todoBatchUpdate
+  events:
+    - http:
+        path: todo-Batch-Update
+        method: PATCH
+        
+todoPartialSearch:
+  handler: src/todomgmt/todomgmt.todoPartialSearch
+  events:
+    - http:
+        path: partial-search
         method: DELETE
