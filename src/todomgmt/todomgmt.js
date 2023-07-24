@@ -20,6 +20,7 @@ export const todoAdd = async (record) => {
   
   let recordObj = JSON.parse(record["body"]);
   todos.push(recordObj);
+ 
   return apiResponse(todos);
    
   
@@ -31,41 +32,7 @@ export const todoAdd = async (record) => {
   export const todoGet = async ( ) => {
     return apiResponse(todos);
 
-
-    const users = [
-      {
-        name:"abir",
-        dob:"345"
-      },
-      {
-        name:"samin",
-        dob:"654"
-      }
-    ]
-
-    const payloadUsers = [
-      {
-        name:"minhaz",
-        dob:"345"
-      },
-      {
-        name:"polash",
-        dob:"654"
-      }
-    ]
-
-    const result =[ ...users,...payloadUsers]
-
-    const userFirstPart = {
-      name:"polash",
-      dob:"654"
-    }
-    const usersecpmdPart = {
-      name:"polash",
-      dob:"654"
-    }
-
-    const user = {...userFirstPart,...usersecpmdPart}
+  
   };
 
 
@@ -73,14 +40,15 @@ export const todoAdd = async (record) => {
 
   let recordObj = JSON.parse(record["body"]);
   console.log(recordObj,"record print")
+ // let holder= recordObj.id;
 
-  for(let i = recordObj.length - 1; i >= 0; i--){
-      if(recordObj[i].id == 2){
-        recordObj.splice(i, 1);
+  for(let i = todos.length - 1; i >= 0; i--){
+      if(todos[i].id == recordObj.id){
+        todos.splice(i, 1);
       }
   }
   
-  return apiResponse(recordObj);
+  return apiResponse(todos);
   };
 
   export const todoUpdate = async (record) => {
@@ -93,26 +61,38 @@ export const todoAdd = async (record) => {
   // if(recordObj.id=3)
   // {recordObj.pop();}
 
-  let test= [{
-    id:2,
-    todoName:"hahahah",
-    todoDetails:"nannananan"
-  }];
+ 
 
 
   let recordObj = JSON.parse(record["body"]);
+  console.log(recordObj)
   
-  for(let i = 0;i<recordObj.length ;  i++){
-      if(recordObj[i].id == 2){
-        recordObj.splice(i, 1);
-        recordObj.push(test);
+  for(let i = 0;i<todos.length ;  i++){
+      if(todos[i].id == recordObj.id){
+        todos.splice(i, 1,recordObj);
+        // todos.push(recordObj);
+        // todos.sort
+        // console.log(todos.sort +'sorteeeeeeeeeeeeeeeed')
         //recordObj.splice(i,0, test);
        // recordObj[i]=test;
      
       }
   }
   
-  return apiResponse(recordObj);
+  return apiResponse(todos);
   };
-  
+ 
+  export const todoDeleteMultiple = async (record) => {
 
+    let recordObj = JSON.parse(record["body"]);
+    console.log(recordObj,"record print")
+   // let holder= recordObj.id;
+  
+    for(let i = todos.length - 1; i >= 0; i--){
+        if(todos[i].id == recordObj.id){
+          todos.splice(i, 2);
+        }
+    }
+    
+    return apiResponse(todos);
+    };

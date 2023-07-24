@@ -22,5 +22,10 @@ todoUpdate:
     - http:
         path: todo
         method: PATCH        
-
+todoDeleteMultiple:
+  handler: src/todomgmt/todomgmt.todoDeleteMultiple
+  events:
+    - http:
+        path: todo
+        method: DELETE
 
