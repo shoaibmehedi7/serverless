@@ -105,15 +105,20 @@ export const todoAdd = async (record) => {
   export const todoPartialSearch = async (record) => { 
   let recordObj = JSON.parse(record["body"]);
   console.log(typeof(recordObj))
+  
+  const filteredTodos = [];
+
+
   for(let i = 0;i<todos.length ;  i++){
    if(todos[i].id.toString().includes(recordObj.toString())||todos[i].todoName.toString().includes(recordObj.toString())||todos[i].todoDetails.toString().includes(recordObj.toString()))
       
-      todos.splice(i, 1);
+      {
+      filteredTodos = todos.filter (todo=>todos.splice(i, 1))
       }
   
 
-  return apiResponse(todos);
-  };
+  return apiResponse( filteredTodos);
+  };}
 
 
 
@@ -145,4 +150,4 @@ for(let element of recordObj){
     }
     
     return apiResponse(todos);
-    };  
+    }
